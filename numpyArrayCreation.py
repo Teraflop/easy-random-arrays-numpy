@@ -1,6 +1,6 @@
 import numpy as np
 
-def createVector(size, mag):
+def create1DArray(size, mag):
     '''
     Create a random, uniformly distributed 1d numpy array of
     the specified size consisting of only natural numbers
@@ -22,7 +22,7 @@ def createVector(size, mag):
         name[place] = num
     return name
 
-def createNormalVector(size, mag):
+def createNormal1DArray(size, mag):
     '''
     Create a random, normally distributed 1d numpy array of
     the specified size consisting of only natural numbers

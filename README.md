@@ -20,8 +20,8 @@ Then, import the file and use its functions in your own code.</p>
 <p>Numpy</p>
 
 <h3>Functions</h3>
-<p> This project is consisted of four functions: createMatrix, createVector,
-createNormalMatrix, and createNormalVector.</p><p> The createMatrix() function takes
+<p> This project is consisted of four functions: createMatrix, create1DArray,
+createNormalMatrix, and createNormal1DArray.</p><p> The createMatrix() function takes
 3 parameters: width, height, and magnitude. The width parameter specifies
 the number of columns in the matrix, the height parameter specifies the number
 of rows in the matrix, and the magnitude parameter specifies the range
@@ -29,10 +29,10 @@ of numbers in the array. A value of 1 will provide numbers from 1 to 10, 2 will
 provide 1-100, and so on. createNormalMatrix() takes the same parameters, the only difference is that they will be (kind of) normally distributed. The way the rounding
 works might throw that off. It yields both positive numbers and negative numbers, while createMatrix() yileds only positive or negative numbers, depending on if the magnitude value is positive or negative. </p>
 
-<p>The createVector() function takes two parameters: size and magnitude. The
+<p>The create1DArray() function takes two parameters: size and magnitude. The
 size parameter indicates how many numbers are in the vector, and the magnitude parameter specifies the range
 of numbers in the array. A value of 1 will provide numbers from 1 to 10, 2 will
-provide 1-100, and so on. createNormalVector()  works similarly; the only difference is that they will be (kind of) normally distributed. The way the rounding
-works might throw that off. It yields both positive numbers and negative numbers, while createVector() yileds only positive or negative numbers, depending on if the magnitude value is positive or negative.</p>
+provide 1-100, and so on. createNormal1DArray()  works similarly; the only difference is that they will be (kind of) normally distributed. The way the rounding
+works might throw that off. It yields both positive numbers and negative numbers, while create1DArray() yileds only positive or negative numbers, depending on if the magnitude value is positive or negative.</p>
 
 <p>If any invalid numbers or non integers are entered as parameters, all of the functions will return None.</p>
