@@ -12,8 +12,8 @@ Then, import the file and use its functions in your own code.
 
 ## Example
  ```python
- import numpyArrayCreation as nac
- foo = nac.createNormalMatrix(5, 5, 2)
+ import numpyArrayCreation
+ foo = numpyArrayCreation.createNormalMatrix(5, 5, 2)
  print(foo)
  ```
  ```
