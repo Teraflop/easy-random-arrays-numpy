@@ -14,6 +14,7 @@ Then, import the file and use its functions in your own code.
  ```python
  import numpyArrayCreation as nac
  foo = nac.createNormalMatrix(5, 5, 2)
+ print(foo)
  ```
  ```
  >>> [[  66.   11. -115.   95.   20.]
