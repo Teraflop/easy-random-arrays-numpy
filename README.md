@@ -11,7 +11,7 @@ this handy for generating random arrays to work with that aren't decimals. </p>
 Then, import the file and use its functions in your own code.</p>
 
 <h5>Example</h5>
-'''python
+'''
 <p> import numpyArrayCreation as nac </p>
 <p> foo = nac.createNormalMatrix(5, 5, 2)
 </p>
